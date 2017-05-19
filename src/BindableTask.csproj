@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.0</TargetFramework>
+    <AssemblyName>LostTech.App.BindableTask</AssemblyName>
+    <RootNamespace>LostTech.App</RootNamespace>
+    <Version>0.1.0</Version>
+    <Authors>Victor Milovanov</Authors>
+    <Company>Lost Tech LLC</Company>
+    <Product>LostTech.App.BindableTask</Product>
+    <Description>A task, that implements INotifyPropertyChanged</Description>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Diagnostics.Contracts" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>
